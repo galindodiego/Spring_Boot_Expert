@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05883d93-a2b4-4d48-90d3-04078dddb859" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repository/ItemsPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repository/Pedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repository/Produtos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repositorio/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repository/Clientes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -157,7 +159,7 @@
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Diego/IdeaProjects/vendas",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "spring.configuration.checksum": "ff4983e12b10e8a56d72adda44db1bf2"
   }
 }]]></component>
@@ -204,7 +206,7 @@
       <workItem from="1665326187720" duration="20925000" />
       <workItem from="1665411520525" duration="7131000" />
       <workItem from="1665429693231" duration="5065000" />
-      <workItem from="1665492032813" duration="3786000" />
+      <workItem from="1665492032813" duration="4602000" />
     </task>
     <servers />
   </component>
