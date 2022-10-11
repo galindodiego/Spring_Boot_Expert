@@ -19,6 +19,13 @@ public class Cliente {
     @OneToMany(mappedBy = "cliente" , fetch = FetchType.LAZY)
     private Set<Pedido> pedidos;
 
+    public Set<Pedido> getPedidos() {
+        return pedidos;
+    }
+
+    public void setPedidos(Set<Pedido> pedidos) {
+        this.pedidos = pedidos;
+    }
 
     public Cliente() {
     }
