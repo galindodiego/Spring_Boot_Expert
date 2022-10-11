@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="05883d93-a2b4-4d48-90d3-04078dddb859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repositorio/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repositorio/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/repositorio/Clientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/repositorio/Clientes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +158,8 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Diego/IdeaProjects/vendas"
+    "last_opened_file_path": "C:/Users/Diego/IdeaProjects/vendas",
+    "spring.configuration.checksum": "ff4983e12b10e8a56d72adda44db1bf2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -200,7 +204,8 @@
       <workItem from="1665174740898" duration="5847000" />
       <workItem from="1665326187720" duration="20925000" />
       <workItem from="1665411520525" duration="7131000" />
-      <workItem from="1665429693231" duration="2122000" />
+      <workItem from="1665429693231" duration="5065000" />
+      <workItem from="1665492032813" duration="980000" />
     </task>
     <servers />
   </component>
