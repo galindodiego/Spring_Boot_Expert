@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05883d93-a2b4-4d48-90d3-04078dddb859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/ClienteController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +219,7 @@
       <workItem from="1665411520525" duration="7131000" />
       <workItem from="1665429693231" duration="5065000" />
       <workItem from="1665492032813" duration="9562000" />
-      <workItem from="1665573346867" duration="1154000" />
+      <workItem from="1665573346867" duration="4261000" />
     </task>
     <servers />
   </component>
