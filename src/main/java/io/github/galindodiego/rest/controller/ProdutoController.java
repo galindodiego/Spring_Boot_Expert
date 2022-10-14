@@ -1,6 +1,5 @@
 package io.github.galindodiego.rest.controller;
 
-import io.github.galindodiego.domain.entity.Cliente;
 import io.github.galindodiego.domain.entity.Produto;
 import io.github.galindodiego.domain.repository.Produtos;
 import org.springframework.data.domain.Example;
@@ -54,8 +53,7 @@ public class ProdutoController {
                         "Produto não encontrado"));
     }
 
-    @DeleteMapping("{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @GetMapping("{id}")
     public Produto getById(@PathVariable Integer id){
 
        return repository
