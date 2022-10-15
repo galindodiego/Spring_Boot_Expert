@@ -9,6 +9,7 @@ import io.github.galindodiego.domain.repository.Clientes;
 import io.github.galindodiego.domain.repository.ItemsPedido;
 import io.github.galindodiego.domain.repository.Pedidos;
 import io.github.galindodiego.domain.repository.Produtos;
+import io.github.galindodiego.exception.PedidoNaoEncontradoException;
 import io.github.galindodiego.exception.RegraNegocioException;
 import io.github.galindodiego.rest.dto.ItemPedidoDTO;
 import io.github.galindodiego.rest.dto.PedidoDTO;
@@ -17,6 +18,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.annotation.Transient;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
@@ -57,6 +59,17 @@ public class PedidoServiceimpl implements PedidoService {
     @Override
     public Optional<Pedido> obterPedidoCompleto(Integer id) {
         return repository.findByIdFetchItens(id);
+    }
+
+    @Override
+    @Transactional
+    public void atualizaStatus(Integer id, StatusPedido statusPedido) {
+        repository
+                .findById(id)
+                .map(pedido -> {
+                    pedido.setStatus(statusPedido);
+                    return repository.save(pedido);
+                }).orElseThrow(()-> new PedidoNaoEncontradoException());
     }
 
     private List<ItemPedido> converterItems(Pedido pedido, List<ItemPedidoDTO> items){

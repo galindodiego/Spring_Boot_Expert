@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05883d93-a2b4-4d48-90d3-04078dddb859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/enums/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/exception/PedidoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/dto/AtualizacaoStatusPedidoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_chema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_chema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/impl/PedidoServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/impl/PedidoServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/PedidoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/PedidoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/impl/PedidoServiceimpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +29,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -167,6 +173,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.galindodiego.exception" />
       <recent name="io.github.galindodiego.domain.enums" />
       <recent name="io.github.galindodiego.rest.dto" />
     </key>
@@ -232,7 +239,7 @@
       <workItem from="1665692449858" duration="5634000" />
       <workItem from="1665755962009" duration="674000" />
       <workItem from="1665781116296" duration="2129000" />
-      <workItem from="1665837849383" duration="11142000" />
+      <workItem from="1665837849383" duration="14007000" />
     </task>
     <servers />
   </component>

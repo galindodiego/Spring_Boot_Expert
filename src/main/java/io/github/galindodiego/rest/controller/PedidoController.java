@@ -2,6 +2,8 @@ package io.github.galindodiego.rest.controller;
 
 import io.github.galindodiego.domain.entity.ItemPedido;
 import io.github.galindodiego.domain.entity.Pedido;
+import io.github.galindodiego.domain.enums.StatusPedido;
+import io.github.galindodiego.rest.dto.AtualizacaoStatusPedidoDTO;
 import io.github.galindodiego.rest.dto.InformacaoItemPedidoDTO;
 import io.github.galindodiego.rest.dto.InformacoesPedidoDTO;
 import io.github.galindodiego.rest.dto.PedidoDTO;
@@ -55,6 +57,15 @@ public class PedidoController {
                 .items(converter(pedido.getItens()))
                 .build();
 
+
+    }
+    @PatchMapping("{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void updateStatus(@PathVariable Integer id,
+                             @RequestBody AtualizacaoStatusPedidoDTO dto){
+
+        String novoStatus = dto.getNovoStatus();
+        service.atualizaStatus(id, StatusPedido.valueOf(novoStatus));
 
     }
 
