@@ -1,5 +1,6 @@
 package io.github.galindodiego.domain.entity;
 
+import io.github.galindodiego.domain.enums.StatusPedido;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,6 +28,10 @@ public class Pedido {
     private LocalDate dataPedido;
     @Column(name = "total",precision = 20, scale = 2) //10000.00 precision
     private BigDecimal total;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status")
+    private StatusPedido status;
 
     @OneToMany(mappedBy = "pedido")
     private List<ItemPedido> itens;

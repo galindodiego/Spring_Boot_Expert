@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05883d93-a2b4-4d48-90d3-04078dddb859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/dto/InformacaoItemPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/dto/InformacoesPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/enums/StatusPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repository/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/repository/Pedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/impl/PedidoServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/impl/PedidoServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/repository/Pedidos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/repository/Pedidos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/PedidoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/PedidoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/impl/PedidoServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/impl/PedidoServiceimpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_chema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_chema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -173,6 +167,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.galindodiego.domain.enums" />
       <recent name="io.github.galindodiego.rest.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -237,7 +232,7 @@
       <workItem from="1665692449858" duration="5634000" />
       <workItem from="1665755962009" duration="674000" />
       <workItem from="1665781116296" duration="2129000" />
-      <workItem from="1665837849383" duration="10414000" />
+      <workItem from="1665837849383" duration="11142000" />
     </task>
     <servers />
   </component>
