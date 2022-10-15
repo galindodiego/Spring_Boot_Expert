@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05883d93-a2b4-4d48-90d3-04078dddb859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/exception/RegraNegocioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/ApiErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/impl/PedidoServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/galindodiego/service/impl/PedidoServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/ItemPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/controller/PedidoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/dto/ItemPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/dto/ItemPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/dto/PedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/rest/dto/PedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/PedidoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/impl/PedidoServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/galindodiego/service/impl/PedidoServiceimpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +238,7 @@
       <workItem from="1665692449858" duration="5634000" />
       <workItem from="1665755962009" duration="674000" />
       <workItem from="1665781116296" duration="2129000" />
-      <workItem from="1665837849383" duration="2820000" />
+      <workItem from="1665837849383" duration="6305000" />
     </task>
     <servers />
   </component>
